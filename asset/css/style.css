@@ -19,20 +19,38 @@
     display: inline-block;
     height: 50px;
     line-height: 0;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 .container{
-    padding: 30%;
-    margin: 0 auto;
-    background-color:bisque ;
-    opacity: 0.2;
+    height: 120vh;
+    padding: 10vh;
+    background-color:rgba(255, 228, 196, 0.151) ;
 }
 
+
 main{
-    content: 100%;
-    margin: 0 auto;
+    height: 90vh;
+    margin: 10vh 30vh 0 30vh;
     background-color: white;
 }
 
+.bg{
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.blue{
+    background-color: deepskyblue;
+    margin: 5vh 1vh 1vh 10vh;
+}
+
+.white{
+    border: 1px solid black;
+}
+
+hr{
+    border: solid rgba(255, 228, 196, 0.151);
+}
     
