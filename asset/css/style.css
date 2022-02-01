@@ -10,10 +10,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* UTILITY */
+
 .f-text{
     font-family: 'Roboto', sans-serif;
 }
 
+.bg{
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+/* UTILITY */
 
 .logo{
     display: inline-block;
@@ -31,26 +41,57 @@
 
 main{
     height: 90vh;
-    margin: 10vh 30vh 0 30vh;
+    margin: 10vh 15% 0 15%;
     background-color: white;
 }
 
-.bg{
-    border-radius: 5px;
-    padding: 5px;
-    display: inline-block;
-}
 
 .blue{
     background-color: deepskyblue;
-    margin: 5vh 1vh 1vh 10vh;
+    margin: 5vh 1% 1vh 8%;
 }
 
 .white{
-    border: 1px solid black;
+    border: 0.1px solid black;
 }
 
 hr{
     border: solid rgba(255, 228, 196, 0.151);
 }
-    
+
+.tasks{
+    margin: 3vh 1%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list:before {
+    content: "▼";
+}
+
+.list-check:before{
+    content: "✓";
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+
+}
+
+.check-list{
+    display: inline-block;
+    margin: 2vh;
+    margin-left: -5%;
+}
+
+.bg-small{
+    background-color: deepskyblue;
+    border-radius: 33%;
+    font-size: 7px;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
