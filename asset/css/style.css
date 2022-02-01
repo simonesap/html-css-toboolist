@@ -14,10 +14,25 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .logo{
     display: inline-block;
     height: 50px;
     line-height: 0;
     vertical-align:middle;
 }
+
+.container{
+    padding: 30%;
+    margin: 0 auto;
+    background-color:bisque ;
+    opacity: 0.2;
+}
+
+main{
+    content: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
     
