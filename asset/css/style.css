@@ -4,11 +4,23 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 #logo{
     margin: 2% 1% 0 2%;
 }
 
+.logo{
+    display: inline-block;
+    height: 50px;
+    line-height: 0;
+    vertical-align: middle;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* HEADER */
 
 /* UTILITY */
 
@@ -22,25 +34,29 @@
     display: inline-block;
 }
 
+.label{
+    border-radius: 33%;
+    font-size: 7px;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
 
 /* UTILITY */
 
-.logo{
-    display: inline-block;
-    height: 50px;
-    line-height: 0;
-    vertical-align: middle;
-}
+
+/* BODY */
 
 .container{
-    height: 120vh;
+    height: 150vh;
     padding: 10vh;
     background-color:rgba(255, 228, 196, 0.151) ;
 }
 
 
 main{
-    height: 90vh;
+    height: 100vh;
     margin: 10vh 15% 0 15%;
     background-color: white;
 }
@@ -73,12 +89,24 @@ ul{
 
 .list-check:before{
     content: "✓";
+    color: greenyellow;
     border: 1px solid greenyellow;
     border-radius: 50%;
     display: inline-block;
     width: 20px;
     text-align: center;
+    margin: 10px;
+}
 
+.list-uncheck:before{
+    content: "x";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin: 10px;
 }
 
 .check-list{
@@ -87,11 +115,29 @@ ul{
     margin-left: -5%;
 }
 
-.bg-small{
+
+.b{
     background-color: deepskyblue;
-    border-radius: 33%;
-    font-size: 7px;
-    color: white;
-    padding: 5px;
-    display: inline-block;
 }
+
+.v{
+    background-color: violet;
+}
+
+.g{
+    background-color: rgb(110, 218, 182);
+}
+
+.o{
+    background-color: orange;
+}
+
+.f{
+    background-color: fuchsia;
+}
+
+.lg{
+    background-color: rgb(129, 196, 28);
+}
+
+/* BODY */
