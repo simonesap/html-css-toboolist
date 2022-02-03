@@ -56,7 +56,7 @@
 
 
 main{
-    height: 100vh;
+    height: 110vh;
     margin: 10vh 15% 0 15%;
     background-color: white;
 }
@@ -76,7 +76,7 @@ hr{
 }
 
 .tasks{
-    margin: 3vh 1%;
+    margin: 5vh 8%;
 }
 
 ul{
@@ -112,7 +112,7 @@ ul{
 .check-list{
     display: inline-block;
     margin: 2vh;
-    margin-left: -5%;
+    margin-left: -7%;
 }
 
 
